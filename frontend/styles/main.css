@@ -1,0 +1,451 @@
+
+/* ==========================================
+   ASTRAHEALTH AI - NASA MISSION CONTROL
+   COMPLETE DASHBOARD STYLESHEET
+   ========================================== */
+
+:root {
+    --background: #07111f;
+    --surface: #101e31;
+    --surface-light: #152740;
+    --border: #223752;
+    --primary: #38bdf8;
+    --text: #e6f0fc;
+    --muted: #8ba2bd;
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --critical: #ef4444;
+}
+
+/* ==========================================
+   MAIN APPLICATION
+   ========================================== */
+
+.stApp {
+    background: var(--background);
+    color: var(--text);
+}
+
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"] {
+    background: var(--background);
+}
+
+.block-container {
+    max-width: 1600px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* ==========================================
+   SIDEBAR
+   ========================================== */
+
+[data-testid="stSidebar"] {
+    background: #0b1829;
+    border-right: 1px solid var(--border);
+}
+
+[data-testid="stSidebar"] > div:first-child {
+    background: #0b1829;
+}
+
+.brand-container {
+    padding: 12px 4px 28px;
+    text-align: center;
+}
+
+.brand-icon {
+    color: var(--primary);
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: var(--text);
+}
+
+.brand-name span {
+    color: var(--primary);
+}
+
+.brand-subtitle {
+    margin-top: 7px;
+    color: var(--muted);
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+.sidebar-label {
+    color: var(--muted);
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+[data-testid="stSidebar"] [data-testid="stRadio"] label {
+    color: #bdcde0;
+    font-size: 13px;
+    padding: 7px 4px;
+}
+
+[data-testid="stSidebar"] [data-testid="stRadio"] label:hover {
+    color: var(--primary);
+}
+
+[data-testid="stSidebar"] [data-testid="stRadio"] > div {
+    gap: 7px;
+}
+
+.sidebar-footer {
+    padding: 15px 5px;
+    color: var(--success);
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.status-dot {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background: var(--success);
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.footer-version {
+    color: var(--muted);
+    font-size: 9px;
+    margin-top: 10px;
+}
+
+/* ==========================================
+   MAIN HEADER
+   ========================================== */
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.eyebrow {
+    color: var(--primary);
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.main-heading {
+    color: var(--text);
+    font-size: 31px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+
+.sub-heading {
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.header-status {
+    color: var(--success);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+/* ==========================================
+   DATA NOTICE
+   ========================================== */
+
+.data-notice {
+    margin-top: 18px;
+    padding: 12px 15px;
+    border: 1px solid #214b69;
+    background: #0d2034;
+    border-radius: 7px;
+    color: #a9c8e3;
+    font-size: 11px;
+}
+
+/* ==========================================
+   SECTION HEADINGS
+   ========================================== */
+
+.section-heading {
+    margin-top: 30px;
+    color: var(--text);
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.section-description {
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.panel-spacer {
+    height: 18px;
+}
+
+/* ==========================================
+   KPI CARDS
+   ========================================== */
+
+.metric-card {
+    min-height: 120px;
+    padding: 18px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    transition: border-color 0.2s ease;
+}
+
+.metric-card:hover {
+    border-color: var(--primary);
+}
+
+.metric-label {
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.metric-value {
+    color: var(--primary);
+    font-size: 29px;
+    font-weight: 800;
+    margin-top: 9px;
+}
+
+.metric-description {
+    color: var(--muted);
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+/* ==========================================
+   PANELS
+   ========================================== */
+
+.panel {
+    padding: 19px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    min-height: 250px;
+}
+
+.panel-title {
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.panel-subtitle {
+    color: var(--muted);
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+/* ==========================================
+   PRIORITY CARDS
+   ========================================== */
+
+.priority-card {
+    min-height: 125px;
+    padding: 19px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    border-left: 3px solid var(--primary);
+}
+
+.priority-card.normal {
+    border-left-color: var(--success);
+}
+
+.priority-card.warning {
+    border-left-color: var(--warning);
+}
+
+.priority-card.critical {
+    border-left-color: var(--critical);
+}
+
+.priority-value {
+    color: var(--text);
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 9px;
+}
+
+/* ==========================================
+   ASTRONAUT CARDS
+   ========================================== */
+
+.astronaut-card {
+    min-height: 145px;
+    padding: 17px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    transition: all 0.2s ease;
+}
+
+.astronaut-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.astronaut-label {
+    color: var(--muted);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.astronaut-id {
+    color: var(--primary);
+    font-size: 25px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.astronaut-stat {
+    color: var(--muted);
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+/* ==========================================
+   STREAMLIT BUTTONS
+   ========================================== */
+
+.stButton > button {
+    background: #102b43;
+    border: 1px solid #245174;
+    color: #bdeaff;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    background: #164267;
+    border-color: var(--primary);
+    color: white;
+}
+
+/* ==========================================
+   DATA TABLES
+   ========================================== */
+
+[data-testid="stDataFrame"] {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* ==========================================
+   EMPTY STATES
+   ========================================== */
+
+.empty-state {
+    min-height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 11px;
+    padding: 15px;
+}
+
+.empty-icon {
+    color: var(--primary);
+    font-size: 32px;
+}
+
+/* ==========================================
+   FOOTER
+   ========================================== */
+
+.app-footer {
+    text-align: center;
+    margin-top: 45px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 9px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN
+   ========================================== */
+
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 23px;
+    }
+
+    .top-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .metric-card {
+        min-height: 105px;
+    }
+
+    .astronaut-card {
+        min-height: 130px;
+    }
+}
+
+
+
+/* ==========================================
+   INTERACTIVE TELEMETRY
+   ========================================== */
+
+[data-testid="stSelectbox"] label {
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+[data-testid="stSelectbox"] > div > div {
+    background: var(--surface);
+    border-color: var(--border);
+    color: var(--text);
+}
+
+[data-testid="stPlotlyChart"] {
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 8px;
+    background: var(--surface);
+}

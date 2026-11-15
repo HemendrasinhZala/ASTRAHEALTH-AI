@@ -1,0 +1,28 @@
+Sample Name,SUBJECT_ID,TIMEPOINT,MISSION_DAY,FOLD,ANOMALY_SCORE,MODEL_PREDICTION,MODEL_STATUS
+C001_whole-blood_L-92_cbc,C001,L-92,-92,1,0.012745977130418695,-1,Anomaly Flag
+C001_whole-blood_L-44_cbc,C001,L-44,-44,1,-0.03394885736661146,1,No Anomaly Flag
+C001_whole-blood_L-3_cbc,C001,L-3,-3,1,-0.02590545698365948,1,No Anomaly Flag
+C001_whole-blood_R+1_cbc,C001,R+1,1,1,-0.03642534037256845,1,No Anomaly Flag
+C001_whole-blood_R+45_cbc,C001,R+45,45,1,0.006247496370079819,-1,Anomaly Flag
+C001_whole-blood_R+82_cbc,C001,R+82,82,1,0.02611253380451406,-1,Anomaly Flag
+C001_whole-blood_R+194_cbc,C001,R+194,194,1,-0.01046539349700415,1,No Anomaly Flag
+C002_whole-blood_L-92_cbc,C002,L-92,-92,2,0.008692572536170506,-1,Anomaly Flag
+C002_whole-blood_L-44_cbc,C002,L-44,-44,2,0.028156140155512155,-1,Anomaly Flag
+C002_whole-blood_L-3_cbc,C002,L-3,-3,2,0.03283191289681764,-1,Anomaly Flag
+C002_whole-blood_R+1_cbc,C002,R+1,1,2,0.005656446479776034,-1,Anomaly Flag
+C002_whole-blood_R+45_cbc,C002,R+45,45,2,0.024809789373047786,-1,Anomaly Flag
+C002_whole-blood_R+82_cbc,C002,R+82,82,2,0.007154531666453745,-1,Anomaly Flag
+C002_whole-blood_R+194_cbc,C002,R+194,194,2,0.011361739855449082,-1,Anomaly Flag
+C003_whole-blood_L-44_cbc,C003,L-44,-44,3,0.04110579596191488,-1,Anomaly Flag
+C003_whole-blood_L-3_cbc,C003,L-3,-3,3,0.026433935369970518,-1,Anomaly Flag
+C003_whole-blood_R+1_cbc,C003,R+1,1,3,0.0043164739750994885,-1,Anomaly Flag
+C003_whole-blood_R+45_cbc,C003,R+45,45,3,-0.00043636567943289295,1,No Anomaly Flag
+C003_whole-blood_R+82_cbc,C003,R+82,82,3,-0.002945923104544501,1,No Anomaly Flag
+C003_whole-blood_R+194_cbc,C003,R+194,194,3,0.009047743713878842,-1,Anomaly Flag
+C004_whole-blood_L-92_cbc,C004,L-92,-92,4,0.03296884867083527,-1,Anomaly Flag
+C004_whole-blood_L-44_cbc,C004,L-44,-44,4,0.015610393533869615,-1,Anomaly Flag
+C004_whole-blood_L-3_cbc,C004,L-3,-3,4,0.047748012855351796,-1,Anomaly Flag
+C004_whole-blood_R+1_cbc,C004,R+1,1,4,0.043461958190565086,-1,Anomaly Flag
+C004_whole-blood_R+45_cbc,C004,R+45,45,4,0.025540929313877303,-1,Anomaly Flag
+C004_whole-blood_R+82_cbc,C004,R+82,82,4,0.020342900242570905,-1,Anomaly Flag
+C004_whole-blood_R+194_cbc,C004,R+194,194,4,0.0520891101731219,-1,Anomaly Flag

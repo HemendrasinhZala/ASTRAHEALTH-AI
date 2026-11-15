@@ -1,0 +1,4 @@
+Subject,Timepoint,Analyte,Observed_Value,Reference_Min,Reference_Max,Issue,Verification_Status
+C003,L-92,ABSOLUTE_NEUTROPHILS,10.1,1500.0,7800.0,Possible unit or scale mismatch,Pending Source Verification
+C003,L-92,MPV,330.0,7.5,12.5,Unusually large value; verify source,Pending Source Verification
+C003,L-92,PLATELET_COUNT,12.9,140.0,400.0,Possible unit or scale mismatch,Pending Source Verification

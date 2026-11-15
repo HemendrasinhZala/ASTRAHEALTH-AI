@@ -1,0 +1,28 @@
+Sample Name,SUBJECT_ID,TIMEPOINT,MISSION_DAY,ISOLATION_FOREST_STATUS,ISOLATION_FOREST_SCORE,AUTOENCODER_STATUS,RECONSTRUCTION_ERROR,MONITORING_PRIORITY_SCORE,MONITORING_PRIORITY,EXPLANATIONS
+C001_whole-blood_L-92_cbc,C001,L-92,-92,No Anomaly Flag,0.46629474078289046,No Anomaly Flag,0.1933462,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C001_whole-blood_L-44_cbc,C001,L-44,-44,No Anomaly Flag,0.4146672722903728,No Anomaly Flag,0.14164826,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C001_whole-blood_L-3_cbc,C001,L-3,-3,No Anomaly Flag,0.44681608518490395,No Anomaly Flag,0.26551306,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C001_whole-blood_R+1_cbc,C001,R+1,1,No Anomaly Flag,0.41272972597041,No Anomaly Flag,0.14715818,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C001_whole-blood_R+45_cbc,C001,R+45,45,No Anomaly Flag,0.4522110431451443,No Anomaly Flag,0.2140563,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C001_whole-blood_R+82_cbc,C001,R+82,82,No Anomaly Flag,0.49067470506672417,No Anomaly Flag,0.14550306,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C001_whole-blood_R+194_cbc,C001,R+194,194,No Anomaly Flag,0.43104883247541675,No Anomaly Flag,0.12525111,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C002_whole-blood_L-92_cbc,C002,L-92,-92,Anomaly Flag,0.503995917299102,No Anomaly Flag,0.3666987,30,Review Recommended,Isolation Forest detected an unusual data pattern.
+C002_whole-blood_L-44_cbc,C002,L-44,-44,Anomaly Flag,0.5406117683034078,No Anomaly Flag,0.326969,30,Review Recommended,Isolation Forest detected an unusual data pattern.
+C002_whole-blood_L-3_cbc,C002,L-3,-3,Anomaly Flag,0.5450135953941041,No Anomaly Flag,0.10363302,30,Review Recommended,Isolation Forest detected an unusual data pattern.
+C002_whole-blood_R+1_cbc,C002,R+1,1,Anomaly Flag,0.5015725826667341,No Anomaly Flag,0.42646134,30,Review Recommended,Isolation Forest detected an unusual data pattern.
+C002_whole-blood_R+45_cbc,C002,R+45,45,No Anomaly Flag,0.4895815821942817,No Anomaly Flag,0.27657133,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C002_whole-blood_R+82_cbc,C002,R+82,82,No Anomaly Flag,0.48503935048636393,No Anomaly Flag,0.27064478,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C002_whole-blood_R+194_cbc,C002,R+194,194,Anomaly Flag,0.500511272025631,No Anomaly Flag,0.25850505,30,Review Recommended,Isolation Forest detected an unusual data pattern.
+C003_whole-blood_L-44_cbc,C003,L-44,-44,Anomaly Flag,0.5214357868774953,Anomaly Flag,0.7522918,60,Priority Review,Autoencoder detected unusual reconstruction behavior.; Isolation Forest detected an unusual data pattern.
+C003_whole-blood_L-3_cbc,C003,L-3,-3,No Anomaly Flag,0.499448042460542,No Anomaly Flag,0.34411147,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C003_whole-blood_R+1_cbc,C003,R+1,1,No Anomaly Flag,0.4707206827537491,No Anomaly Flag,0.18665569,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C003_whole-blood_R+45_cbc,C003,R+45,45,No Anomaly Flag,0.4768571535551188,No Anomaly Flag,0.38314596,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C003_whole-blood_R+82_cbc,C003,R+82,82,No Anomaly Flag,0.4650178758182485,No Anomaly Flag,0.34939334,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C003_whole-blood_R+194_cbc,C003,R+194,194,No Anomaly Flag,0.46965788302390166,Anomaly Flag,0.5413665,30,Review Recommended,Autoencoder detected unusual reconstruction behavior.
+C004_whole-blood_L-92_cbc,C004,L-92,-92,Anomaly Flag,0.5468003160809131,No Anomaly Flag,0.27445948,30,Review Recommended,Isolation Forest detected an unusual data pattern.
+C004_whole-blood_L-44_cbc,C004,L-44,-44,No Anomaly Flag,0.4571730211304975,No Anomaly Flag,0.28562105,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C004_whole-blood_L-3_cbc,C004,L-3,-3,No Anomaly Flag,0.4892420753575974,No Anomaly Flag,0.5410577,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C004_whole-blood_R+1_cbc,C004,R+1,1,No Anomaly Flag,0.45549804696242635,No Anomaly Flag,0.081256695,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C004_whole-blood_R+45_cbc,C004,R+45,45,No Anomaly Flag,0.466329477575067,No Anomaly Flag,0.13629301,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C004_whole-blood_R+82_cbc,C004,R+82,82,No Anomaly Flag,0.46574910275376946,No Anomaly Flag,0.29563522,0,Routine Monitoring,No anomaly indicators were triggered by the models.
+C004_whole-blood_R+194_cbc,C004,R+194,194,No Anomaly Flag,0.4949217591626095,No Anomaly Flag,0.2363632,0,Routine Monitoring,No anomaly indicators were triggered by the models.

@@ -1,0 +1,17 @@
+Sample,Analyte,Value,Minimum,Maximum
+C003_whole-blood_L-92_cbc,absolute_eosinophilscells_per_microliter,614.0,15.0,500.0
+C003_whole-blood_L-92_cbc,absolute_lymphocytescells_per_microliter,6826.0,850.0,3900.0
+C003_whole-blood_L-92_cbc,absolute_monocytescells_per_microliter,1997.0,200.0,950.0
+C004_whole-blood_L-3_cbc,absolute_monocytescells_per_microliter,965.0,200.0,950.0
+C004_whole-blood_R+1_cbc,absolute_monocytescells_per_microliter,1029.0,200.0,950.0
+C004_whole-blood_R+194_cbc,absolute_monocytescells_per_microliter,988.0,200.0,950.0
+C003_whole-blood_L-92_cbc,absolute_neutrophilscells_per_microliter,10.1,1500.0,7800.0
+C002_whole-blood_R+82_cbc,hematocritpercent,34.7,35.0,45.0
+C002_whole-blood_L-3_cbc,hemoglobinpercent,11.5,11.7,15.5
+C002_whole-blood_R+82_cbc,hemoglobinpercent,11.5,11.7,15.5
+C003_whole-blood_L-92_cbc,mchcgrams_per_deciliter,29.6,32.0,36.0
+C004_whole-blood_R+45_cbc,monocytespercent,13.2,0.0,13.0
+C003_whole-blood_L-92_cbc,mpvfemtoliter,330.0,7.5,12.5
+C003_whole-blood_L-92_cbc,platelet_countthousand_per_microliter,12.9,140.0,400.0
+C003_whole-blood_L-92_cbc,rdwpercent,32.4,11.0,15.0
+C002_whole-blood_L-3_cbc,red_blood_cell_countmillion_per_microliter,3.72,3.8,5.1

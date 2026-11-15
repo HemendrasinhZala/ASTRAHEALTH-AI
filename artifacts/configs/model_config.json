@@ -1,0 +1,13 @@
+{
+    "model_name": "ASTRAHEALTH_AI",
+    "input_dimension": 18,
+    "latent_dimension": 3,
+    "epochs": 100,
+    "learning_rate": 0.001,
+    "batch_size": 4,
+    "threshold_percentile": 95,
+    "autoencoder_threshold": 0.5412738919258118,
+    "device": "cpu",
+    "training_samples": 27,
+    "random_state": 42
+}

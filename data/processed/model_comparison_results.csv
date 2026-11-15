@@ -1,0 +1,28 @@
+Sample Name,SUBJECT_ID,TIMEPOINT,MISSION_DAY,ANOMALY_SCORE,ISOLATION_FOREST_STATUS,RECONSTRUCTION_ERROR,TRAINING_THRESHOLD,AUTOENCODER_STATUS,MODEL_AGREEMENT,COMBINED_STATUS
+C001_whole-blood_L-92_cbc,C001,L-92,-92,0.012745977130418695,Anomaly Flag,1.1097716,0.502185,Anomaly Flag,Agreement,Both Models Flagged
+C001_whole-blood_L-44_cbc,C001,L-44,-44,-0.03394885736661146,No Anomaly Flag,0.35195413,0.502185,No Anomaly Flag,Agreement,Neither Model Flagged
+C001_whole-blood_L-3_cbc,C001,L-3,-3,-0.02590545698365948,No Anomaly Flag,0.3818151,0.502185,No Anomaly Flag,Agreement,Neither Model Flagged
+C001_whole-blood_R+1_cbc,C001,R+1,1,-0.03642534037256845,No Anomaly Flag,0.38044667,0.502185,No Anomaly Flag,Agreement,Neither Model Flagged
+C001_whole-blood_R+45_cbc,C001,R+45,45,0.006247496370079819,Anomaly Flag,0.81172484,0.502185,Anomaly Flag,Agreement,Both Models Flagged
+C001_whole-blood_R+82_cbc,C001,R+82,82,0.02611253380451406,Anomaly Flag,1.5681765,0.502185,Anomaly Flag,Agreement,Both Models Flagged
+C001_whole-blood_R+194_cbc,C001,R+194,194,-0.01046539349700415,No Anomaly Flag,0.5833203,0.502185,Anomaly Flag,Disagreement,Autoencoder Only
+C002_whole-blood_L-92_cbc,C002,L-92,-92,0.008692572536170506,Anomaly Flag,0.72531074,0.47098732,Anomaly Flag,Agreement,Both Models Flagged
+C002_whole-blood_L-44_cbc,C002,L-44,-44,0.028156140155512155,Anomaly Flag,0.84782696,0.47098732,Anomaly Flag,Agreement,Both Models Flagged
+C002_whole-blood_L-3_cbc,C002,L-3,-3,0.03283191289681764,Anomaly Flag,0.90704644,0.47098732,Anomaly Flag,Agreement,Both Models Flagged
+C002_whole-blood_R+1_cbc,C002,R+1,1,0.005656446479776034,Anomaly Flag,1.5705769,0.47098732,Anomaly Flag,Agreement,Both Models Flagged
+C002_whole-blood_R+45_cbc,C002,R+45,45,0.024809789373047786,Anomaly Flag,0.58142895,0.47098732,Anomaly Flag,Agreement,Both Models Flagged
+C002_whole-blood_R+82_cbc,C002,R+82,82,0.007154531666453745,Anomaly Flag,1.4039441,0.47098732,Anomaly Flag,Agreement,Both Models Flagged
+C002_whole-blood_R+194_cbc,C002,R+194,194,0.011361739855449082,Anomaly Flag,0.7657443,0.47098732,Anomaly Flag,Agreement,Both Models Flagged
+C003_whole-blood_L-44_cbc,C003,L-44,-44,0.04110579596191488,Anomaly Flag,2.387763,0.5508652,Anomaly Flag,Agreement,Both Models Flagged
+C003_whole-blood_L-3_cbc,C003,L-3,-3,0.026433935369970518,Anomaly Flag,3.2010698,0.5508652,Anomaly Flag,Agreement,Both Models Flagged
+C003_whole-blood_R+1_cbc,C003,R+1,1,0.0043164739750994885,Anomaly Flag,2.3936565,0.5508652,Anomaly Flag,Agreement,Both Models Flagged
+C003_whole-blood_R+45_cbc,C003,R+45,45,-0.00043636567943289295,No Anomaly Flag,3.8349118,0.5508652,Anomaly Flag,Disagreement,Autoencoder Only
+C003_whole-blood_R+82_cbc,C003,R+82,82,-0.002945923104544501,No Anomaly Flag,2.3520536,0.5508652,Anomaly Flag,Disagreement,Autoencoder Only
+C003_whole-blood_R+194_cbc,C003,R+194,194,0.009047743713878842,Anomaly Flag,1.5280402,0.5508652,Anomaly Flag,Agreement,Both Models Flagged
+C004_whole-blood_L-92_cbc,C004,L-92,-92,0.03296884867083527,Anomaly Flag,3.5534828,0.93233275,Anomaly Flag,Agreement,Both Models Flagged
+C004_whole-blood_L-44_cbc,C004,L-44,-44,0.015610393533869615,Anomaly Flag,2.7937183,0.93233275,Anomaly Flag,Agreement,Both Models Flagged
+C004_whole-blood_L-3_cbc,C004,L-3,-3,0.047748012855351796,Anomaly Flag,2.3146453,0.93233275,Anomaly Flag,Agreement,Both Models Flagged
+C004_whole-blood_R+1_cbc,C004,R+1,1,0.043461958190565086,Anomaly Flag,2.8963442,0.93233275,Anomaly Flag,Agreement,Both Models Flagged
+C004_whole-blood_R+45_cbc,C004,R+45,45,0.025540929313877303,Anomaly Flag,2.450244,0.93233275,Anomaly Flag,Agreement,Both Models Flagged
+C004_whole-blood_R+82_cbc,C004,R+82,82,0.020342900242570905,Anomaly Flag,2.1418228,0.93233275,Anomaly Flag,Agreement,Both Models Flagged
+C004_whole-blood_R+194_cbc,C004,R+194,194,0.0520891101731219,Anomaly Flag,2.729647,0.93233275,Anomaly Flag,Agreement,Both Models Flagged
